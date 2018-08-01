@@ -2,9 +2,9 @@ import time
 import pandas as pd
 import numpy as np
 
-CITY_DATA = { 'chicago': '/home/wiselap/Machine Learning/bikeshare-2/chicago.csv',
-              'new york city': '/home/wiselap/Machine Learning/bikeshare-2/new_york_city.csv',
-              'washington': '/home/wiselap/Machine Learning/bikeshare-2/washington.csv' }
+CITY_DATA = { 'chicago': 'chicago.csv',
+              'new york city': 'new_york_city.csv',
+              'washington': 'washington.csv' }
 
 months = ['january', 'february', 'march', 'april', 'may', 'june']
 days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
